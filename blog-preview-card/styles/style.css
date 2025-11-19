@@ -1,0 +1,91 @@
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+background: #f4d190;
+font-family: "Figtree", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 20px;
+}
+
+
+.card {
+background: #fff;
+width: 380px;
+padding: 22px;
+border-radius: 18px;
+box-shadow: 8px 8px 0px rgba(0,0,0,0.8);
+display: flex;
+flex-direction: column;
+gap: 16px;
+border: 1px solid #e7e7e7;
+}
+
+
+.card__image {
+width: 100%;
+border-radius: 10px;
+}
+
+
+.card__category {
+background: #f4d190;
+padding: 6px 14px;
+font-weight: 800;
+border-radius: 6px;
+width: fit-content;
+font-size: 14px;
+}
+
+
+.card__date {
+font-size: 14px;
+color: #5a5a5a;
+}
+
+
+.card__title {
+font-size: 24px;
+font-weight: 700;
+color: #111111;
+transition: color 0.3s ease;
+}
+
+
+.card:hover .card__title {
+color: #E9A23B;
+}
+
+
+.card__description {
+font-size: 16px;
+color: #6b6b6b;
+line-height: 1.45;
+}
+
+
+.card__author {
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: 10px;
+}
+
+
+.card__author-image {
+width: 36px;
+border-radius: 50%;
+}
+
+
+.card__author-name {
+font-weight: 700;
+}
